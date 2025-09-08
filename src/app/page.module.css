@@ -1,0 +1,19 @@
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.mainContentTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.mainContentText {
+  font-size: 1.2rem;
+  text-align: center;
+  max-width: 600px;
+}
