@@ -1,0 +1,151 @@
+.headerButton {
+  position: relative;
+}
+
+.count {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+}
+
+.cartTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.cartHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.separator {
+  height: 1px;
+  background-color: #ccc;
+  margin: 10px 0;
+}
+
+.emptyCartTextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emptyCart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emptyCartIconContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.emptyCartTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.emptyCartDescription {
+  font-size: 1.2rem;
+  color: #666;
+  text-align: center;
+  margin-top: 10px;
+  max-width: 300px;
+}
+
+.continueShoppingButton {
+  border: 1px solid #979797;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  background: rgb(20, 20, 20);
+  padding: 20px;
+  border-radius: 8px;
+  overflow-y: auto;
+  max-height: 80%;
+}
+
+.itemImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  padding: 10px;
+  object-fit: contain;
+}
+
+.cartItem {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.itemInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+}
+
+.itemQuantityContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.decrementButton {
+  padding: 5px 22px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  border: 1px solid #979797;
+}
+
+.incrementButton {
+  padding: 5px 22px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  border: 1px solid #979797;
+}

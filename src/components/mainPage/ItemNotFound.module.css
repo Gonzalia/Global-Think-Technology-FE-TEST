@@ -1,0 +1,20 @@
+.notFoundContainer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.notFoundTitle {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.notFoundDescription {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.notFoundIcon {
+  align-self: center;
+  margin: 0 auto;
+}
